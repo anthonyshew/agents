@@ -1,5 +1,16 @@
 # @inkeep/agents-api
 
+## 0.42.1
+
+### Patch Changes
+
+- c7fa88a: Fix trigger invocation flow: correct agent lookup from Record structure, fix database client usage for conversations/messages, and improve error serialization in logs. Default workflow world to 'local' for development when WORKFLOW_TARGET_WORLD is not set.
+- Updated dependencies [0f83405]
+- Updated dependencies [0aa5679]
+- Updated dependencies [cfa81bb]
+  - @inkeep/agents-core@0.42.1
+  - @inkeep/agents-manage-mcp@0.42.1
+
 ## 0.42.0
 
 ### Minor Changes

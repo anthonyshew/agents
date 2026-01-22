@@ -1,5 +1,19 @@
 # @inkeep/agents-manage-ui
 
+## 0.42.1
+
+### Patch Changes
+
+- 0f83405: Fix trigger message template removal not working from UI
+- 503ce52: feat(manage-ui): upload source maps if sentry is enabled
+- c47f630: fix(dashboard): variables in prompt editor weren't properly highlighted inside HTML tags, or were incorrectly highlighted inside `[]` brackets
+- 27a6e3f: Clear context configs when empty in agent serialization
+- 82b959b: fix hydration errors on triggerId/invocations page
+- Updated dependencies [0f83405]
+- Updated dependencies [0aa5679]
+- Updated dependencies [cfa81bb]
+  - @inkeep/agents-core@0.42.1
+
 ## 0.42.0
 
 ### Minor Changes
